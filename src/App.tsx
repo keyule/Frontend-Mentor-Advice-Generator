@@ -1,12 +1,12 @@
 import './App.css'
-import { ThreeDCardDemo } from './components/3dCard'
+import AdviceCard from './components/AdviceCard'
 
 
 function App() {
 
   return (
-      <div className="h-screen w-full bg-black">
-        <ThreeDCardDemo/> 
+      <div>
+        <AdviceCard/>
       </div>
   
   )
